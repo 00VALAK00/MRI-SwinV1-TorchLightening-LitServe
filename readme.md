@@ -7,12 +7,11 @@ This project demonstrates the power of **Swin Transformers** for classifying MRI
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Worflow](#features)
-3. [Architecture](#worflow)
-4. [Installation](#installation)
-6. [Model Training](#model-training)
-7. [Model Deployment](#model-deployment)
-8. [Results](#results)
+2. [Worflow](#workflow)
+3. [Installation](#installation)
+4. [Model Training](#model-training)
+5. [Model Deployment](#model-deployment)
+7. [Results](#results)
 
 ---
 
