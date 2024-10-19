@@ -38,7 +38,7 @@ Accurate MRI scan classification is essential for identifying medical conditions
 - **Data preparation**: Includes normalization, resizing, and data augmentation techniques. Implements data loaders for training, testing, and validation, leveraging stratified splits across classes to ensure balanced representation.
 - **Modular Training Pipeline**: Easily adjustable for different hyperparameters and datasets.
 - **Efficient Model Serving**: Facilitates quick deployment of models using Liserve with minimal configuration required. Supports batch serving for efficient inference on multiple inputs simultaneously.
-- **Transfer Learning & Fine tunning**: Utilize pre-trained Swin Transformers to boost performance.
+- **Transfer Learning & Fine tunning**: Utilize pre-trained Swin Transformer.
 - **Tensorboard**: Provides visualization of training metrics and model performance through TensorBoard, enabling tracking loss and metrics.
 
 
@@ -62,4 +62,17 @@ pip install -r requirements.txt
 ----
 
 ## Model training
+
+![Image 1](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214014.png)
+![Image 1](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20215608.png)
+
+----
+## Model deployment
+
+---
+## Results
+
+After training the model, the following metrics were observed:
+
+[image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214750.png)
 
