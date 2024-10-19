@@ -77,8 +77,6 @@ class Swin4MRI(L.LightningModule):
         # Compute metrics
         f1 = f1_score(y.cpu().numpy(), predicted_classes.detach().cpu().numpy(), average='macro')
         acc = accuracy_score(y.cpu().numpy(), predicted_classes.detach().cpu().numpy())
-        self.log_dict({'eval_loss': loss, "f1_score": {f1}, "acc": acc}, prog_bar=True)  # Log evaluation loss
-
         self.log('train_loss', loss)
 
     @staticmethod

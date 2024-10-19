@@ -1,0 +1,3 @@
+freeze_percentage: 60
+num_classes: 4
+use_cls_token: true
