@@ -23,8 +23,6 @@ Accurate MRI scan classification is essential for identifying medical conditions
 
 ![image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/MRI_scans.png)
 
-
-
 - **Technologies used**:
   - **Pytorch** As the Deep Learning framework"   
   - **pretrained Swin Transformer-v1 model**
@@ -62,20 +60,23 @@ pip install -r requirements.txt
 ----
 
 ## Model training
-About 60% of the model weights has been frozen for finetunning and the following hyperparemeters were employed:
+About 60% of the model weights has been frozen for fine-tunning and the following hyperparemeters were employed:
   - Batch size : 64
   - lr : 1e-5
-  - precision: 
+  - Number of Epochs: 20 (stopped after 9 by the earlystop callback)
+  - Optimizer: adam
+  - 
+After training the model, the following metrics and loss values were observed on the :
 
-![Image 1](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214014.png)
-
-----
-## Model deployment
+![Image 1]()
 
 ---
 ## Results
 
-After training the model, the following metrics were observed:
+----
+## Model deployment
 
+
+---
 [image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214750.png)
 

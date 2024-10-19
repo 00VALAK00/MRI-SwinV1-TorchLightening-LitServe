@@ -18,7 +18,7 @@ class InferenceModel(torch.nn.Module):
         self.checkpoint_dir = os.path.join(main_dir, "scripts", "checkpoint")
         self.load_checkpoint()
         self.model = Swin4MRI.load_from_checkpoint(self.checkpoint_dir)
-        self.idx_to_labels: dict = {0: "glioma", 1: "healthy", 2: "meningioma", 3: "pituitary"}
+        self.idx_to_labels: dict = {0: "glioma", 1: "healthy", 2: "meningioma", 3: "git "}
 
     def forward(self, data):
         return self.model(data)
