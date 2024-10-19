@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7cf265f-4018-4ddd-96eb-157ab9876c6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +29,12 @@
     &quot;assignee&quot;: &quot;00VALAK00&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/00VALAK00/cats-vs-dogs-pytorch-transformers-SWIN-v1&quot;,
-    &quot;accountId&quot;: &quot;67a209ca-173f-4b60-b2d8-03f3b49f4fbc&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe.git",
+    "accountId": "67a209ca-173f-4b60-b2d8-03f3b49f4fbc"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
