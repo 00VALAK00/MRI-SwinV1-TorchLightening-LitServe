@@ -62,9 +62,12 @@ pip install -r requirements.txt
 ----
 
 ## Model training
+About 60% of the model weights has been frozen for finetunning and the following hyperparemeters were employed:
+  - Batch size : 64
+  - lr : 1e-5
+  - precision: 
 
 ![Image 1](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214014.png)
-![Image 1](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20215608.png)
 
 ----
 ## Model deployment
