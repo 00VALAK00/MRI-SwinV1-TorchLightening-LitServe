@@ -1,4 +1,4 @@
-# MRI-scans Classifier using Swin-v1 transformer (Training & Deployment)
+# MRI-scans Classifier using Swin-v1 transformers (Training & Deployment)
 
 
 This project demonstrates the power of **Swin Transformers** for classifying MRI scans. The training pipeline leverages **PyTorch Lightning** for efficient and optimized experimentation, while **Liserve** enables seamless model deployment and serving. 
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 About 60% of the model weights has been frozen for fine-tunning and the following hyperparemeters were employed:
   - Batch size : 64
   - lr : 1e-5
-  - Number of Epochs: 20 (stopped after 9 by the earlystop callback)
+  - Number of Epochs: 20 (stopped training after 9 epochs by the earlystop callback)
   - Optimizer: adam
   - 
 After training the model, the following metrics and loss values were observed on the :
@@ -75,10 +75,20 @@ After training the model, the following metrics and loss values were observed on
 
 ---
 ## Results
+To observe model performance either train your own model or clone this repo and run 
+```bash
+tensorboard --logdir=logs
+```
+**metrics**:
+
 ![Image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214750.png)
 
+**Confusion Matrix**
+
+![Image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/confusion_matrix.png)
 ----
 ## Model deployment
+Once the server is established, a list of random images were sent via a request to the litserve server and the client received a json file containing the predictions.
 
 
 ---
