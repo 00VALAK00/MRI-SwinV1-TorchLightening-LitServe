@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7cf265f-4018-4ddd-96eb-157ab9876c6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/predict.py" afterDir="false" />
-    </list>
+    <list default="true" id="d7cf265f-4018-4ddd-96eb-157ab9876c6b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +85,7 @@
       <workItem from="1729111173352" duration="7053000" />
       <workItem from="1729253751583" duration="24322000" />
       <workItem from="1729366583197" duration="611000" />
-      <workItem from="1729381057537" duration="1147000" />
+      <workItem from="1729381057537" duration="1537000" />
     </task>
     <servers />
   </component>
