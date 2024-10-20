@@ -1,4 +1,4 @@
-# MRI-scans Classifier using Swin-v1 transformers (Training & Deployment)
+# MRI-scans Classifier using Swin-v1 transformer (Training & Deployment)
 
 
 This project demonstrates the power of **Swin Transformers** for classifying MRI scans. The training pipeline leverages **PyTorch Lightning** for efficient and optimized experimentation, while **Liserve** enables seamless model deployment and serving. 
