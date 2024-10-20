@@ -47,7 +47,7 @@ Make sure you have Python 3.8+ installed. Then follow these steps:
 
 ```bash
 # Clone the repository
-[git clone [https://github.com/yourusername/MRI-Scans-Classifier.git]
+git clone https://github.com/yourusername/MRI-Scans-Classifier.git
 # Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
