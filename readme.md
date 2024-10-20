@@ -68,10 +68,14 @@ About 60% of the model weights has been frozen for fine-tunning and the followin
   - 
 After training the model, the following metrics and loss values were observed on the :
 
-![Image 1]()
+![Image 2](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20215608.png)
+![Image 2](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214014.png)
+![Image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20213957.png)
+![Image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214919.png)
 
 ---
 ## Results
+![Image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214750.png)
 
 ----
 ## Model deployment
