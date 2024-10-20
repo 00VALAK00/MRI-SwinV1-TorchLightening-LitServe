@@ -5,39 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7cf265f-4018-4ddd-96eb-157ab9876c6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/torch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_URL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/MRI_scans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Screenshot 2024-10-19 213957.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Screenshot 2024-10-19 214014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Screenshot 2024-10-19 214750.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Screenshot 2024-10-19 214919.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Screenshot 2024-10-19 215608.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/MRI_model/version_0/events.out.tfevents.1729094016.DESKTOP-UJFDI9J.33852.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/MRI_model/version_1/events.out.tfevents.1729094104.DESKTOP-UJFDI9J.31344.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/MRI_model/version_1/hparams.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vid/MRI-SwinV1-TorchLightening-LitServe – build.py 2024-10-20 16-35-44.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Iheb/Desktop/projects/MRI-SwinV1-TorchLightening-LitServe&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Iheb/Desktop/projects/MRI-SwinV1-TorchLightening-LitServe/vid",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Iheb\Desktop\projects\MRI-SwinV1-TorchLightening-LitServe\vid" />
       <recent name="C:\Users\Iheb\Desktop\projects\cats-vs-dogs-pytorch-transformers-SWIN-v1\scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -121,7 +91,7 @@
       <workItem from="1729366583197" duration="611000" />
       <workItem from="1729381057537" duration="1537000" />
       <workItem from="1729382817576" duration="4008000" />
-      <workItem from="1729427669976" duration="9714000" />
+      <workItem from="1729427669976" duration="11157000" />
     </task>
     <servers />
   </component>
