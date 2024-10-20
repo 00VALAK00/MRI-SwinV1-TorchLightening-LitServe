@@ -82,5 +82,5 @@ After training the model, the following metrics and loss values were observed on
 
 
 ---
-[image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/images/Screenshot%202024-10-19%20214750.png)
+[image](https://github.com/00VALAK00/MRI-SwinV1-TorchLightening-LitServe/blob/master/vid/MRI-SwinV1-TorchLightening-LitServebuild.py2024-10-2016-35-44-ezgif.com-video-to-gif-converter%20(1).gif)
 
